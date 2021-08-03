@@ -1,0 +1,36 @@
+.iconMenu {
+    display: flex;
+
+    a, span{
+        display: flex;
+        align-items: center;
+
+        svg {
+            width: 2rem; 
+            padding-right: 0.5rem;
+
+            path, polygon {
+                transition: all ease 0.5s;
+            }
+        }
+
+    } 
+
+}
+
+
+.iconMenu:hover > a > svg > path {
+        fill: var(--ice)
+}
+
+.iconMenu:hover > a > svg > polygon {
+    fill: var(--ice)
+}
+
+.iconMenu:hover > span > svg > path {
+    fill: var(--ice)
+}
+
+.iconMenu:hover > span > svg > polygon {
+fill: var(--ice)
+}

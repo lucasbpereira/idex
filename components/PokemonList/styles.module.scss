@@ -1,0 +1,84 @@
+.pokemonList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .pokemonCards {
+        width: 140px;
+        height: 125px;
+        margin: 5px;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        transition: transform ease 0.3s;
+
+        &:hover {
+            transform: translateY(-0.5rem);
+        }
+
+        a{ 
+            width: 100%;
+            background-image: url('/pokeball.svg');
+            background-position: 66px 35px;
+            background-repeat: no-repeat;
+
+            ul{
+                width: 50%;
+
+                .types {
+                    background-color: rgba(255, 255, 255, 0.3);
+                    font-size: 0.675rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 8px;
+                    margin: 0.25rem 0;
+                }
+
+                .favoriteIcon {
+                    color:transparent;
+                    position: absolute;
+                    bottom: 0.5rem;
+                    z-index: 99999999;
+                    
+                    svg {
+                        fill:rgba(255, 255, 255, 0.5);
+                    }
+                    }
+                    .see {
+                        background-color: rgba(255, 255, 255, 0.3);
+                        font-size: 0.675rem;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 8px;
+                        
+    
+                        svg {
+                            fill:rgba(255, 255, 255, 0.5);
+                            height: 1rem;
+                        }
+
+                }
+            }
+
+            
+        }
+
+        
+
+        .sprites {
+            position: absolute;
+            top: 2rem;
+            right: 0.2rem;
+        
+            img {
+                width: 70px;
+                height: 70px
+            }
+        }
+    }
+
+    
+}
+

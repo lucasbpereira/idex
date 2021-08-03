@@ -1,0 +1,32 @@
+.pokemonList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .pokemonCards {
+        width: 140px;
+        height: 60px;
+        margin: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url('/pokeball.svg');
+        background-position: 60px -20px;
+        background-repeat: no-repeat;
+        color: var(--white);
+        font-family: 'Krona One', sans-serif;
+        transition: transform ease 0.3s;
+
+        &:hover {
+            transform: translateY(-0.5rem);
+        }
+
+        a{ 
+            width: 100%;
+            background-image: url('/pokeball.svg');
+            background-position: 50% 50%;
+            background-repeat: no-repeat; 
+        }
+    }
+}

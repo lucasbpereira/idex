@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Lato:wght@300;400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --white: #FFF;
+  --black: #000;
+
+  --gray-50: #F7F8FA;
+  --gray-100: #E6E8EB;
+  --gray-200: #AFB2B1;
+  --gray-500: #808080;
+  --gray-800: #494D4B;
+  
+  --red: #FF0000;
+  --darkRed: #CC0000; 
+
+  --blue-500: #3B4CCA;
+
+  --yellow: #FFDE00;
+  --darkYellow: #B3A125;
+
+  --bug: #83C300;
+  --dark: #5B5466;
+  --dragon: #006FC9;
+  --electric: #FBD100;
+  --fairy: #FB89EB;
+  --fighting: #D84219;
+  --fire: #FF9741;
+  --flying: #89AAE3;
+  --ghost: #4C6AB2;
+  --grass: #38BF4B;
+  --ground: #E87236;
+  --ice: #4CD1C0;
+  --normal: #919AA2;
+  --poison: #B567CE;
+  --psychic: #FF6675;
+  --rock: #C8B686;
+  --steel: #5A8EA2;
+  --water: #3692DC;
+  
+  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  font-family: 'Krona One', sans-serif;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  padding: 0.5rem 0;
+}
+
+.bug {
+  background-color: var(--bug);
+}
+
+.dark {
+  background-color: var(--dark);
+}
+
+.dragon {
+  background-color: var(--dragon);
+}
+
+.electric {
+  background-color: var(--electric);
+}
+
+.fairy {
+  background-color: var(--fairy);
+}
+
+.fighting {
+  background-color: var(--fighting);
+}
+
+.fire {
+  background-color: var(--fire);
+}
+
+.flying {
+  background-color: var(--flying);
+}
+
+.ghost {
+  background-color: var(--ghost);
+}
+
+.grass {
+  background-color: var(--grass);
+}
+
+.ground {
+  background-color: var(--ground);
+}
+
+.ice {
+  background-color: var(--ice);
+}
+
+.normal {
+  background-color: var(--normal);
+}
+
+.poison {
+  background-color: var(--poison);
+}
+
+.psychic {
+  background-color: var(--psychic);
+}
+
+.rock {
+  background-color: var(--rock);
+}
+
+.steel {
+  background-color: var(--steel);
+}
+
+.water {
+  background-color: var(--water);
+}
+
+#bug {
+  background: url('/bg/Bug-Types.jpg');
+  background-position: center;
+}
+
+#dark {
+  background: url('/bg/Dark-Types.jpg');
+  background-position: center;
+}
+
+#dragon {
+  background: url('/bg/Dragon-Types.jpg');
+  background-position: center;
+}
+
+#electric {
+  background: url('/bg/Electric-Types.jpg');
+  background-position: center;
+}
+
+#fairy {
+  background: url('/bg/Fairy-Types.jpg');
+  background-position: center;
+}
+
+#fighting {
+  background: url('/bg/Fighting-Types.jpg');
+  background-position: center;
+}
+
+#fire {
+  background: url('/bg/Fire-Types.jpg');
+  background-position: center;
+}
+
+#flying {
+  background: url('/bg/Flying-Types.jpg');
+  background-position: center;
+}
+
+#ghost {
+  background: url('/bg/Ghost-Types.jpg');
+  background-position: center;
+}
+
+#grass {
+  background: url('/bg/Grass-Types.jpg');
+  background-position: center;
+}
+
+#ground {
+  background: url('/bg/Ground-Types.jpg');
+  background-position: center;
+}
+
+#ice {
+  background: url('/bg/Ice-Types.jpg');
+  background-position: center;
+}
+
+#normal {
+  background: url('/bg/Normal-Types.jpg');
+  background-position: center;
+}
+
+#poison {
+  background: url('/bg/Poison-Types.jpg');
+  background-position: center;
+}
+
+#psychic {
+  background: url('/bg/Psychic-Types.jpg');
+  background-position: center;
+}
+
+#rock {
+  background: url('/bg/Rock-Types.jpg');
+  background-position: center;
+}
+
+#steel {
+  background: url('/bg/Steel-Types.jpg');
+  background-position: center;
+}
+
+#water {
+  background: url('/bg/Water-Types.jpg');
+  background-position: center;
+}
+
+// progress {
+//   -webkit-appearance: none;
+//    appearance: none;
+
+//   width: 155px;
+//   height: 10px;
+//   border-radius: 5px;
+// }
+
+progress[value] {
+  -webkit-appearance: none;
+   appearance: none;
+
+  width: 200px;
+  height: 10px;
+  box-shadow: 0 10px 40px -10px #fff;
+
+}
+
+progress[value]::-webkit-progress-bar {
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid rgba(0, 0, 0, 0.75);
+}
+
+progress[value]::-webkit-progress-value {
+  background: var(--white);
+
+  border-radius: 10px; 
+  background-size: 35px 20px, 100% 100%, 100% 100%;
+  box-shadow: 0 10px 40px -10px #fff;
+}

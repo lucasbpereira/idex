@@ -1,0 +1,83 @@
+
+.spotlightPokemon {
+    height: calc(85vh - 6.5rem);
+    color: var(--white);
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 3rem;
+
+    strong {
+        text-transform: uppercase;
+        font-size: 3rem;
+        font-family: Lexend, sans-serif;
+        font-weight: 600;
+        text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+    }
+
+    span {
+        text-transform: uppercase;
+        font-size: 2rem;
+        font-family: Lexend, sans-serif;
+        font-weight: 600;
+        opacity: 0.5;
+        text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+    }
+
+    .headerInfo {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .typeInfo {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 30vw;
+        
+        .list {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            list-style: none;
+            border-radius: 3px;
+            margin: 0 1.5625% 0 0;
+            float: left;
+            text-align: center;
+            color: var(--white);
+            padding: 0.3rem 0.5rem;
+            text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+            text-transform:capitalize;
+        }
+
+       
+    }
+
+    .sprite {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        position:absolute;
+        right: 0;
+        bottom: 0; 
+    }
+}
+
+@media (max-width: 600px) {
+    .spotlightPokemon {
+        padding: 1rem;
+
+        strong {
+            font-size: 2rem;
+        }
+        span {
+            font-size: 1.5rem;
+        }
+
+        .sprite {
+            position: absolute;
+            bottom: -60px;
+        }
+    }
+}

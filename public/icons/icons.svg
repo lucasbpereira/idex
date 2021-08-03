@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2018 (64 Bit Versão de avaliação) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="51.1528mm" height="51.1528mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 5115.28 5115.28"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str3 {stroke:black;stroke-width:282.22;stroke-miterlimit:22.9256}
+    .str2 {stroke:black;stroke-width:282.22;stroke-miterlimit:22.9256}
+    .str1 {stroke:black;stroke-width:20;stroke-miterlimit:22.9256}
+    .str0 {stroke:black;stroke-width:282.22;stroke-linejoin:round;stroke-miterlimit:22.9256}
+    .fil2 {fill:none}
+    .fil1 {fill:black}
+    .fil0 {fill:white}
+   ]]>
+  </style>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2113037834128">
+   <rect class="fil0 str0" transform="matrix(0.627973 -4.87631E-06 1.6065E-05 2.02258 1006.15 417.076)" width="5009.45" height="2116.67" rx="385.77" ry="385.77"/>
+   <rect class="fil1" x="1661.67" y="2156.16" width="1812.59" height="1208.4"/>
+   <circle class="fil2 str1" transform="matrix(0.973068 0.260988 -0.260987 0.973067 1562.51 3833.79)" r="211.67"/>
+   <rect class="fil1" transform="matrix(-8.94826E-08 -1.00746 1.51117 1.34222E-07 3095.49 4292.43)" width="776.11" height="211.67"/>
+   <rect class="fil1" x="2864.47" y="3741.53" width="781.9" height="319.87"/>
+   <polyline class="fil2 str2" points="963.31,1775.19 2089.81,1730.6 2461.51,1167.94 4109.12,1167.93 "/>
+   <circle class="fil1" transform="matrix(0.973068 0.260988 -0.260987 0.973067 2498.72 754.75)" r="88.19"/>
+   <circle class="fil1" transform="matrix(0.973068 0.260988 -0.260987 0.973067 2813.53 747.198)" r="88.19"/>
+   <circle class="fil1" transform="matrix(0.973068 0.260988 -0.260987 0.973067 3128.34 739.645)" r="88.19"/>
+   <circle class="fil2 str3" transform="matrix(0.538666 0.144476 -0.144476 0.538665 1682.51 1083.22)" r="493.89"/>
+  </g>
+ </g>
+</svg>
